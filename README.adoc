@@ -1,0 +1,37 @@
+:source-highlighter: highlight.js
+:highlightjs-languages: rust
+:toc: auto
+
+= *Andromeda*
+
+Andromeda is meant to be an extensible and flexible personal assistant.
+
+Andromeda will push my Python and Rust skills to their limits. Python for ease of use, Rust to speed up portions of Andromeda where possible.
+
+There will be bugs and there will be limitations.
+
+== *Background and Goals*:
+
+After not looking at my CutieAssistant project for a few months, I suddenly had a thought for a somewhat unique identifying name. One that had not been used before, and wouldn't come up in common speech.
+
+Andromeda.
+
+...and then I remembered https://en.wikipedia.org/wiki/Andromeda_(TV_series)[_Andromeda_] the TV show.
+
+Well, maybe not quite original, but the name gave the project a personality with a theme of Space (...also very original). This reinvigorated my energy to work on this project, unlike so many before that remain unfinished.
+
+== *Immediate plans*:
+
+* [ ] Automatic response map generation.
+** Currently manually written in assets/service_response_map.json
+* [ ] Build a plugin template.
+*** [ ] Include Andromeda version compatibility.
+** [ ] Mapping of commands.
+** [ ] Mapping for base required functions and inherited classes.
+** [ ] Support for automatic update fetching via git.
+* [ ] Plugin installer.
+* [ ] Plugin updater.
+* [ ] Move multiple base Andromeda functionality to seperately packaged plugins.
+** [ ] andromeda-joke
+** [ ] andromeda-timer
+* [ ] Whatever I tackle afterward.
